@@ -13,8 +13,14 @@ input:focus {
 body {
     background-image: linear-gradient(180deg, #49cc49bf, #ff6f47c4);
     color: #ffffff;
-    font-family: "Poppins", sans-serif;
     min-height: 100vh;
+}
+
+body,
+form input,
+form button,
+select {
+    font-family: 'Caveat', cursive;
 }
 
 header {
@@ -28,6 +34,8 @@ form {
     justify-content: center;
     align-items: center;
 }
+
+
 
 form input,
 form button {
